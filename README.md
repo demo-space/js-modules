@@ -128,13 +128,12 @@ CommonJS 模块输出的是值的拷贝，也就是说，一旦输出一个值�
 
 ```
 以下 CommonJS 执行结果：
-main.js:7 num 的原始值是：  0
-main.js:12 incNum 执行两次后 num 值变为：  0
-main.js:14 
+num 的原始值是：  0
+incNum 执行两次后 num 值变为：  0
 
-main.js:20 以下 ES6 modules 执行结果：
-main.js:21 num 的原始值是：  0
-main.js:26 incNum 执行两次后 num 值变为：  2
+以下 ES6 modules 执行结果：
+num 的原始值是：  0
+incNum 执行两次后 num 值变为：  2
 ```
 
 ## ES6 加载 CommonJS
